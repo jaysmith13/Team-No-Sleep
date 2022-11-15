@@ -1,0 +1,16 @@
+{
+    "name": "Team No Sleep",
+    "version": "1.0.0",
+    "scripts": {
+      "server": "cd backend && yarn start",
+      "frontend": "cd frontend && yarn start",
+      "dev": "concurrently \"yarn server\" \"yarn frontend\""
+    },
+    "main": "index.js",
+    "repository": "https://github.com/jaysmith13/Team-No-Sleep.git",
+    "author": "Janea Smith",
+    "license": "MIT",
+    "dependencies": {
+      "concurrently": "^5.1.0"
+    }
+  }
